@@ -1,0 +1,17 @@
+body{
+	color: black;
+	background-color: 006400;
+}
+
+.container > div {
+	padding: 300px;
+	text-align:	center;
+	margin-bottom: 0px;
+}
+
+.container {
+	display: grid;
+	grid-gap: 0px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr ;
+}
